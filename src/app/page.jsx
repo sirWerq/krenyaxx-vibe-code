@@ -34,27 +34,27 @@ export default function Home() {
       title: "Makaroni Balado",
       description:
         "Makaroni dengan bumbu balado pedas khas yang diproses dengan teknik khusus untuk menghasilkan tekstur yang renyah.",
-      imageSrc: "https://placehold.co/600x400/FFC107/FFF?text=Makaroni+Balado",
+      imageSrc: "/makaronibalado.svg",
       imageAlt: "Makaroni Balado",
-      price: "Rp 15.000",
+      price: "Rp 10.000",
     },
     {
       title: "Makaroni Pedas Daun Jeruk",
       description:
         "Perpaduan cita rasa pedas dengan aroma segar daun jeruk yang khas, menciptakan sensasi yang tak terlupakan.",
       imageSrc:
-        "https://placehold.co/600x400/FFC107/FFF?text=Makaroni+Pedas+Daun+Jeruk",
+        "/makaronipedasjeruk.svg",
       imageAlt: "Makaroni Pedas Daun Jeruk",
-      price: "Rp 15.000",
+      price: "Rp 10.000",
     },
     {
       title: "Keripik Pisang Manis",
       description:
         "Keripik pisang dengan lapisan gula yang manis, renyah di luar dan lembut di dalam. Camilan tradisional dengan sentuhan modern.",
       imageSrc:
-        "https://placehold.co/600x400/FFC107/FFF?text=Keripik+Pisang+Manis",
+        "/keripikpisangmanis.svg",
       imageAlt: "Keripik Pisang Manis",
-      price: "Rp 12.000",
+      price: "Rp 10.000",
     },
   ];
 
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-6xl font-bold mb-4 text-amber-800">
-                Krenyaxx Snacks
+                Krenyax Snacks
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-amber-700">
                 Camilan Krenyes untuk Semua
@@ -89,8 +89,8 @@ export default function Home() {
             <div className="md:w-1/2 flex justify-center">
               <div className="relative w-80 h-80">
                 <Image
-                  src="https://placehold.co/600x600/FFC107/FFF?text=Krenyaxx"
-                  alt="Krenyaxx Product Showcase"
+                  src="/logo.svg"
+                  alt="Krenyax Product Showcase"
                   fill
                   className="object-contain rounded-lg shadow-xl"
                   priority
@@ -141,8 +141,8 @@ export default function Home() {
             <div className="md:w-1/2 mb-10 md:mb-0">
               <div className="relative w-full h-80">
                 <Image
-                  src="https://placehold.co/600x400/FFC107/FFF?text=About+Krenyaxx"
-                  alt="About Krenyaxx"
+                  src="/logo.svg"
+                  alt="About Krenyax"
                   fill
                   className="object-cover rounded-lg shadow-lg"
                 />
@@ -153,14 +153,14 @@ export default function Home() {
                 Tentang Kami
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Krenyaxx adalah UMKM yang berdedikasi untuk menghadirkan camilan
+                Krenyax adalah UMKM yang berdedikasi untuk menghadirkan camilan
                 berkualitas dengan cita rasa khas Indonesia. Kami memulai
                 perjalanan kami dari dapur kecil dengan visi untuk menghadirkan
                 makanan ringan yang tidak hanya enak tapi juga menggunakan
                 bahan-bahan pilihan.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                Setiap produk Krenyaxx dibuat dengan cinta dan perhatian khusus
+                Setiap produk Krenyax dibuat dengan cinta dan perhatian khusus
                 terhadap detail. Kami terus berinovasi untuk menghadirkan variasi
                 rasa yang unik dan memenuhi selera pasar yang terus berkembang.
               </p>
@@ -180,7 +180,7 @@ export default function Home() {
               Pesan Produk Kami
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Dapatkan produk Krenyaxx melalui platform e-commerce favorit Anda
+              Dapatkan produk Krenyax melalui platform e-commerce favorit Anda
             </p>
           </div>
           <div className="flex justify-center">
@@ -200,7 +200,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-3">TikTok Shop</h3>
               <p className="text-gray-600 mb-6">
-                Pesan produk Krenyaxx langsung dari TikTok Shop kami dan dapatkan
+                Pesan produk Krenyax langsung dari TikTok Shop kami dan dapatkan
                 promo eksklusif!
               </p>
               <a

@@ -27,7 +27,7 @@ export default function Navbar() {
                         <div className="flex items-center">
                             <h1 className="text-2xl font-bold relative">
                                 <span className="z-10 px-1">
-                                    Krenyaxx
+                                    Krenyax
                                 </span>
                             </h1>
                         </div>
