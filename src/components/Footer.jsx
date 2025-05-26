@@ -74,7 +74,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-lg font-semibold text-amber-800 mb-4">Contact Us</h3>
             <ul className="space-y-2 text-gray-700">
-              <li>Email: info@krenyaxx.com</li>
+              <li>Email: info@krenyax.com</li>
               <li>Phone: +62 123 456 7890</li>
               <li>Address: Jl. Camilan No. 123, Jakarta, Indonesia</li>
             </ul>
